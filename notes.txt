@@ -1,0 +1,18 @@
+need to define:
+-points
+	-2d,3d,xyz
+-vectors
+	-2d,3d,xyz,magnitude,angles
+-lines
+	-r-form,limited,infinite,2d,3d,xyz,implicit-form
+-planes
+	-r-form,limited,infinite,2d,3d,xyz,implicit-form
+
+implicit form
+-good for testing collision
+
+r form
+-good for finding points in line or plane
+
+limited/infinite
+-lines and planes can have limits between 2 points or 
