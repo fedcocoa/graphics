@@ -21,4 +21,4 @@ void point3_print(point3 point);
 
 double point2_distance(point2 a, point2 b);
 
-double point3_distance(point2 a, point2 b);
+double point3_distance(point3 a, point3 b);
