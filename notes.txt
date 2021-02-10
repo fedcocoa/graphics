@@ -15,4 +15,4 @@ r form
 -good for finding points in line or plane
 
 limited/infinite
--lines and planes can have limits between 2 points or 
+-lines and planes can have limits between 2 points or lambda values
