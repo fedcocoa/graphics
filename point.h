@@ -1,27 +1,25 @@
 #ifndef POINT_HEADER
 #define POINT_HEADER
 
-typedef struct point2{
-	double x;
-	double y;
-} point2;
+class Point2 {
+	public:
+		Point2();
+		Point2(double x, double y);
+		void print();
+		static double distance(Point2 a, Point2 b);
+		double distance_to(Point2 to);
+		double x,y;
+	
+};
 
-typedef struct point3{
-	double x;
-	double y;
-	double z;
-} point3;
-
-point2 new_point2(double x, double y);
-
-point3 new_point3(double x, double y, double z);
-
-void point2_print(point2 point);
-
-void point3_print(point3 point);
-
-double point2_distance(point2 a, point2 b);
-
-double point3_distance(point3 a, point3 b);
+class Point3 {
+	public:
+		Point3();
+		Point3(double x, double y, double z);
+		void print();
+		static double distance(Point3 a, Point3 b);
+		double distance_to(Point3 to);
+		double x,y,z;
+};
 
 #endif

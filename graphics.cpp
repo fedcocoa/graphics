@@ -5,7 +5,7 @@
 int main() {
 	printf("Hello world!\n");
 
-	vector3 a = new_vector3(3,4,5);
-	printf("%f",a.magnitude);
+	Vector2 a = Vector2(3,4);
+	printf("%f",a.magnitude());
 	return 0;
 }
